@@ -7,15 +7,19 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MoviesModule } from './movies/movies.module';
 import { DomainsModule } from './domains/domains.module';
 import { SharedModule } from './shared/shared.module';
+import {MatButtonModule} from '@angular/material/button';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatButtonModule,
     MoviesModule,
     DomainsModule,
     SharedModule
