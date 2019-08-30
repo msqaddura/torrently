@@ -13,7 +13,11 @@ export class MovieApiService {
     return of(movies);
   }
 
-  // Imagine we have database of movies, we rather than query the movies by filter, 
+  getMovieById(id: number) {
+    return of(movies.find(item => item.id === id));
+  }
+
+  // Imagine we have database of movies, we rather than query the movies by filter,
   getMovieListByGenre(genreType: GenreType) {
     return of(movies).pipe(
       map(movieList =>

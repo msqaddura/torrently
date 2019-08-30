@@ -6,8 +6,9 @@
       class="example-icon"
       aria-hidden="false"
       aria-label="Example heart icon"
-      >favorite</mat-icon
+      >star_border</mat-icon
     >
+
     <mat-icon
       class="example-icon"
       aria-hidden="false"
@@ -22,6 +23,7 @@
   class="d-flex flex-wrap align-content-center justify-content-center"
 >
   <div class="movie-item" *ngFor="let movie of movies">
+    <app-rating [rating]="movie.rate"></app-rating>
     <img
       class="movie-item__image"
       src="assets/images/movie-covers/{{ movie.img }}"
