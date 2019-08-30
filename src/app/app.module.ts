@@ -7,14 +7,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MoviesModule } from './movies/movies.module';
 import { DomainsModule } from './domains/domains.module';
 import { SharedModule } from './shared/shared.module';
-import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
 
+import { MatButtonModule } from '@angular/material/button';
+
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent
-  ],
+  declarations: [AppComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -27,4 +25,4 @@ import { HomeComponent } from './home/home.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

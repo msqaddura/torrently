@@ -1,0 +1,30 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <span>Third Line</span>
+    <span class="example-spacer"></span>
+    <mat-icon
+      class="example-icon"
+      aria-hidden="false"
+      aria-label="Example heart icon"
+      >favorite</mat-icon
+    >
+    <mat-icon
+      class="example-icon"
+      aria-hidden="false"
+      aria-label="Example delete icon"
+      >delete</mat-icon
+    >
+  </mat-toolbar-row>
+</mat-toolbar>
+<br />
+<div
+  class="movie-list"
+  class="d-flex flex-wrap align-content-center justify-content-center"
+>
+  <div class="movie-item" *ngFor="let movie of movies">
+    <img
+      class="movie-item__image"
+      src="assets/images/movie-covers/{{ movie.img }}"
+    />
+  </div>
+</div>

@@ -5,6 +5,10 @@ import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
+    path: 'movies',
+    loadChildren: () => import('./movies/movies.module').then(mod => mod.MoviesModule)
+  },
+  {
     component: HomeComponent,
     path: ''
   }
