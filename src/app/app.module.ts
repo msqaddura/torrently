@@ -10,6 +10,8 @@ import { SharedModule } from './shared/shared.module';
 import { HomeComponent } from './home/home.component';
 
 import { MatButtonModule } from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent],
@@ -18,6 +20,8 @@ import { MatButtonModule } from '@angular/material/button';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatToolbarModule,
+    MatIconModule,
     MoviesModule,
     DomainsModule,
     SharedModule
