@@ -6,6 +6,7 @@ import { MoviesListComponent } from './movies-list/movies-list.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { SharedModule } from '../shared/shared.module';
 
@@ -16,6 +17,7 @@ import { SharedModule } from '../shared/shared.module';
     MoviesRoutingModule,
     MatToolbarModule,
     MatIconModule,
+    MatCardModule,
     SharedModule
   ]
 })

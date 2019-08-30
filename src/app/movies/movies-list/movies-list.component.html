@@ -23,10 +23,22 @@
   class="d-flex flex-wrap align-content-center justify-content-center"
 >
   <div class="movie-item" *ngFor="let movie of movies">
-    <app-rating [rating]="movie.rate"></app-rating>
-    <img
-      class="movie-item__image"
-      src="assets/images/movie-covers/{{ movie.img }}"
-    />
+    <mat-card style="width:200px">
+      <img
+        mat-card-image
+        src="assets/images/movie-covers/{{ movie.img }}"
+        alt="movie.title"
+      />
+      <mat-card-content>
+        <p>
+          {{ movie.name }}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <app-rating [rating]="movie.rate"></app-rating>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
   </div>
 </div>
