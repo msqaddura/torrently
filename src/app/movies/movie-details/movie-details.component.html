@@ -10,10 +10,7 @@
       <i>{{ movie.length }}</i>
 
       <app-rating [rating]="movie.rate"></app-rating>
-      <button
-        mat-raised-button
-        (click)="showTrailer('https://www.youtube.com/embed/1ozGKlOzEVc')"
-      >
+      <button mat-raised-button (click)="showTrailer(movie.trailer)">
         Play
       </button>
     </div>

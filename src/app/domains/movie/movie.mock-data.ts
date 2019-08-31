@@ -10,17 +10,19 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.adventure, genreType.comedy],
     rate: '8.6',
     length: '1hr 48mins',
+    trailer: 'https://www.youtube.com/embed/ONHBaC-pfsk',
     img: 'deadpool.jpg'
   },
   {
     id: 2,
     key: 'we-are-the-millers',
-    name: 'We\'re the Millers',
+    name: "We're the Millers",
     description:
       'A veteran pot dealer creates a fake family as part of his plan to move a huge shipment of weed into the U.S. from Mexico.',
     genres: [genreType.adventure, genreType.comedy, genreType.crime],
     rate: '7.0',
     length: '1hr 50mins',
+    trailer: 'https://www.youtube.com/embed/ONHBaC-pfsk',
     img: 'we-are-the-millers.jpg'
   },
   {
@@ -32,6 +34,7 @@ export const movies: Movie[] = [
     genres: [genreType.biography, genreType.drama, genreType.history],
     rate: '8.0',
     length: '2hr 27mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'straight-outta-compton.jpg'
   },
   {
@@ -43,6 +46,7 @@ export const movies: Movie[] = [
     genres: [genreType.crime, genreType.drama, genreType.sport],
     rate: '6.9',
     length: '2hr 5mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'gridiron-gang.jpg'
   },
   {
@@ -54,6 +58,7 @@ export const movies: Movie[] = [
     genres: [genreType.biography, genreType.crime, genreType.drama],
     rate: '7.8',
     length: '2hr 37mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'american-gangster.jpg'
   },
   {
@@ -61,10 +66,11 @@ export const movies: Movie[] = [
     key: 'gangster-squad',
     name: 'Gangster Squad',
     description:
-      'It\'s 1949 Los Angeles, the city is run by gangsters and a malicious mobster, Mickey Cohen. Determined to end the corruption, John O\'Mara assembles a team of cops, ready to take down the ruthless leader and restore peace to the city.',
+      "It's 1949 Los Angeles, the city is run by gangsters and a malicious mobster, Mickey Cohen. Determined to end the corruption, John O'Mara assembles a team of cops, ready to take down the ruthless leader and restore peace to the city.",
     genres: [genreType.action, genreType.crime, genreType.drama],
     rate: '6.8',
     length: '1hr 53mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'gangster-squad.jpg'
   },
   {
@@ -76,6 +82,7 @@ export const movies: Movie[] = [
     genres: [genreType.crime, genreType.mystery, genreType.thriller],
     rate: '7.3',
     length: '1hr 55mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'now-you-see-me.jpg'
   },
   {
@@ -83,10 +90,11 @@ export const movies: Movie[] = [
     key: 'jurassic-world',
     name: 'Jurassic World',
     description:
-      'A new theme park is built on the original site of Jurassic Park. Everything is going well until the park\'s newest attraction--a genetically modified giant stealth killing machine--escapes containment and goes on a killing spree.',
+      "A new theme park is built on the original site of Jurassic Park. Everything is going well until the park's newest attraction--a genetically modified giant stealth killing machine--escapes containment and goes on a killing spree.",
     genres: [genreType.action, genreType.adventure, genreType.scifi],
     rate: '7.1',
     length: '2hr 4mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'jurassic-world.jpg'
   },
   {
@@ -98,6 +106,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.adventure, genreType.thriller],
     rate: '7.5',
     length: '2hr 11mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'mission-impossible-rogue-nation.jpg'
   },
   {
@@ -109,6 +118,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.adventure, genreType.thriller],
     rate: '7.3',
     length: '1hr 56mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'the-man-from-uncle.jpg'
   },
   {
@@ -116,10 +126,11 @@ export const movies: Movie[] = [
     key: 'spectre',
     name: 'Spectre',
     description:
-      'A cryptic message from Bond\'s past sends him on a trail to uncover a sinister organization. While M battles political forces to keep the secret service alive, Bond peels back the layers of deceit to reveal the terrible truth behind SPECTRE.',
+      "A cryptic message from Bond's past sends him on a trail to uncover a sinister organization. While M battles political forces to keep the secret service alive, Bond peels back the layers of deceit to reveal the terrible truth behind SPECTRE.",
     genres: [genreType.action, genreType.adventure, genreType.thriller],
     rate: '6.9',
     length: '2hr 28mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'spectre.jpg'
   },
   {
@@ -131,6 +142,7 @@ export const movies: Movie[] = [
     genres: [genreType.biography, genreType.crime, genreType.drama],
     rate: '7.0',
     length: '2hr 28mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'legend.jpg'
   },
   {
@@ -142,6 +154,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.drama, genreType.sport],
     rate: '7.5',
     length: '2hr 4mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'southpaw.jpg'
   },
   {
@@ -153,6 +166,7 @@ export const movies: Movie[] = [
     genres: [genreType.biography, genreType.drama, genreType.thriller],
     rate: '7.7',
     length: '2hr 22mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'bridge-of-spies.jpg'
   },
   {
@@ -164,6 +178,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.adventure, genreType.scifi],
     rate: '7.4',
     length: '1hr 57mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'ant-man.jpg'
   },
   {
@@ -175,6 +190,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.crime, genreType.thriller],
     rate: '7.3',
     length: '2hr 17mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'fast-and-furious-7.jpg'
   },
   {
@@ -186,6 +202,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.crime, genreType.drama],
     rate: '5.6',
     length: '1hr 34mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'tracers.jpg'
   },
   {
@@ -197,6 +214,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.crime, genreType.drama],
     rate: '7.4',
     length: '2hr 2mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'running-scared.jpg'
   },
   {
@@ -208,6 +226,7 @@ export const movies: Movie[] = [
     genres: [genreType.comedy],
     rate: '7.8',
     length: '1hr 40mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'the-hangover.jpg'
   },
   {
@@ -219,6 +238,7 @@ export const movies: Movie[] = [
     genres: [genreType.comedy, genreType.crime],
     rate: '6.7',
     length: '1hr 28mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'project-x.jpg'
   },
   {
@@ -230,6 +250,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.crime, genreType.drama],
     rate: '9.0',
     length: '2hr 32mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'the-dark-knight.jpg'
   },
   {
@@ -237,10 +258,11 @@ export const movies: Movie[] = [
     key: 'the-tournament',
     name: 'The Tournament',
     description:
-      'Every seven years in an unsuspecting town, The Tournament takes place. A battle royale between 30 of the world\'s deadliest assassins. The last man standing receiving the $10,000,000 cash prize and the title of Worlds No 1, which itself carries the legendary million dollar a bullet price tag.',
+      "Every seven years in an unsuspecting town, The Tournament takes place. A battle royale between 30 of the world's deadliest assassins. The last man standing receiving the $10,000,000 cash prize and the title of Worlds No 1, which itself carries the legendary million dollar a bullet price tag.",
     genres: [genreType.action, genreType.thriller],
     rate: '6.1',
     length: '1hr 35mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'the-tournament.jpg'
   },
   {
@@ -252,6 +274,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.scifi],
     rate: '8.7',
     length: '2hr 16mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'the-matrix.jpg'
   },
   {
@@ -263,6 +286,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.comedy, genreType.crime],
     rate: '6.8',
     length: '1hr 59mins',
+    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
     img: 'bad-boys.jpg'
   }
 ];

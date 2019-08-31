@@ -34,4 +34,5 @@ export interface Movie {
   rate: string;
   length: string;
   img: string;
+  trailer: string;
 }
