@@ -22,6 +22,5 @@ export class RatingComponent implements OnInit {
         this.rates.push('star_half');
       }
     }
-    console.log(this.rates);
   }
 }

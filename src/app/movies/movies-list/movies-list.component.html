@@ -1,10 +1,31 @@
-<br />
+<div id="panel">
+  <mat-form-field>
+    <input
+      type="tel"
+      matInput
+      placeholder="Look for..."
+      [(ngModel)]="filters.name"
+      name="name"
+    />
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Genre</mat-label>
+    <mat-select [(ngModel)]="filters.genre" name="genre">
+      <mat-option value="">All</mat-option>
+      <mat-option *ngFor="let genre of genres | keyvalue" [value]="genre.value">
+        {{ genre.key }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
 <div
   class="movie-list"
   class="d-flex flex-wrap align-content-center justify-content-center"
 >
   <div class="movie-item" *ngFor="let movie of movies">
-    <a routerLink="/movies/{{ movie.id }}">
+    <a routerLink="/movies/{{ movie.id }}" *ngIf="canShow(movie)">
       <mat-card>
         <img
           mat-card-image

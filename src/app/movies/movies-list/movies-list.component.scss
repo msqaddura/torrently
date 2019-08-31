@@ -1,3 +1,11 @@
+#panel {
+  text-align: center;
+  border-radius: 0px 0px 20% 20%;
+  background: white;
+  mat-form-field {
+    padding: 0 10px;
+  }
+}
 .movie-item {
   margin: 5px;
   img {

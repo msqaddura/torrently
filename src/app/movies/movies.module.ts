@@ -13,6 +13,10 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
+import { MatMenuModule } from '@angular/material/menu';
+import { FormsModule } from '@angular/forms';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [MoviesListComponent, MovieDetailsComponent],
@@ -25,6 +29,10 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatGridListModule,
     MatDialogModule,
     MatButtonModule,
+    MatInputModule,
+    MatMenuModule,
+    MatSelectModule,
+    FormsModule,
     SharedModule,
     MatChipsModule
   ]
