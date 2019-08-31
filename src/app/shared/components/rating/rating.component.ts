@@ -12,7 +12,12 @@ export class RatingComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    const rating = Number(this.rating);
+    this.calculateRates(Number(this.rating));
+  }
+
+  // we calculate rate by approximation, and give it icon id
+  calculateRates(rating: number) {
+    this.rates = [];
     for (let i = 0; i < 5; i++) {
       if (rating <= i * 2) {
         this.rates.push('star_border');

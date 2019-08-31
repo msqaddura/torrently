@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { RatingComponent } from './rating.component';
+import { MatIconModule } from '@angular/material/icon';
 
 fdescribe('RatingComponent', () => {
   let component: RatingComponent;
@@ -8,7 +9,8 @@ fdescribe('RatingComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [RatingComponent]
+      declarations: [RatingComponent],
+      imports: [MatIconModule]
     }).compileComponents();
   }));
 
@@ -20,5 +22,18 @@ fdescribe('RatingComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it('should rate', () => {
+    component.rates = [];
+    component.calculateRates(8);
+    fixture.detectChanges();
+    expect(component.rates).toEqual([
+      'star',
+      'star',
+      'star',
+      'star',
+      'star_border'
+    ]);
   });
 });
