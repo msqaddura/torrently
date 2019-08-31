@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "github": "ng build --prod --base-href 'https://msqaddura.github.io/torrently/' --output-path=docs"
+    "github": "ng build --prod --base-href https://msqaddura.github.io/torrently/ --output-path=docs"
   },
   "private": true,
   "dependencies": {
