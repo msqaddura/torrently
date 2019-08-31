@@ -26,71 +26,69 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+---
 
------------------------------------
-
-
-# Betsson Group: Movies Application
-**Version: 1.2**
-## Scenario:
-
-You have a great idea for a new movies collection application. Your new site will be based on angular application which it will contain the below features:
-
-### Application should contain the below features:
-
-- **Movies List**
-  - List Movies.
-  - Search.
-  - Clicking on a particular movie will redirect you to the selected &#39;movie detail&#39; page.
-- **Movie detail**
-  - Show selected movie detail information.
-  - Navigate back to &#39;movie list&#39;.
-
-Pages should have proper urls and navigation should work as expected:
-  * using the back and forward button of the browser should take to the correct page
-  * reloading the current page should work as expected
-
-#### Technologies required
+#### Technologies:
 
 - [Angular](https://angular.io/) (2 or higher)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Rxjs](https://github.com/ReactiveX/rxjs)
 - [Sass](http://sass-lang.com/)
+- [Angular Material](https://material.angular.io/)
 
-You may use any 3rd party libraries which can facilitate your development.
+### Features:
 
-#### Extra Credit
+- **Overall**
+  - App-Like structure & navigation
+  - Responsive Layout
+  - Flat Design UI
+  - Straight Forward UX
+  - Lazy Loading
+  - Unit Tests (minimal)
+  - Routing
+  - Hosted on GitHub Pages
+- **Movies List**
 
-- Filter by Genre.
-- Apply [Redux](http://redux.js.org/) application state management to your application. You may use any 3rd party libraries which can facilitate your development.
-- Unit tests.
-- Polished design.
-- Responsive design.
-- Animations.
+  - List Movies.
+  - Search.
+  - Clicking on a particular movie will redirect you to the selected &#39;movie detail&#39; page.
+  - Filter by genre (Anded with Search)
 
-If you get the demo in good shape and have extra time, add your own flair and features.
+- **Movie detail**
+  - Show selected movie detail information.
+  - Navigate back to &#39;movie list&#39;.
+  - Watch Trailer
+  - Star Rates
+  - Genre List
 
-#### Content
+### Notes:
 
-- Together with this readme file, you will find ` **content** ` folder which contains helpful content for your application:
-  - Movies mock data.
-  - Movies cover images.
-  - Basic movies model.
-- Feel free to modify movies content.
-- Feel free to modify movies model file.
+There are README files in folders where need be.
 
-#### How to start?
+- **Overall**
 
-We encourage you to start the project however it suits you best.
+  - `trailers are random and not correct` just to showcase the feature
 
-Optionally you can use the Angular QuickStart Source that we included (`quickstart` folder).
+- **Coding**
+  - State Management was not used, as the CRUDs are mocked & tiny
+  - the mocked data is imported as is (filteration, and projection) in real life scenario there shall be more api calls
+    with ids and params
+  - `is there a "pages" folder?` not at the moment
 
-#### Deliverable
+### The True Fruit
 
-- Provide a working application.
-- Provide source code in a public Git, Stash or Bitbucket repository.
-- Provide markdown readme file.
-  - General information about the app.
-  - Provide steps how to build/launch your application.
+- **Changes needed**
 
-Goodluck!
+  - seperate the movie seach & filter from each another since the user is not fishing for a movie
+  - use a side bar for all actions and ad filter by popularity, date, rate
+  - connect to a real API with lots of movies
+
+- **Future Vision**
+  - use torrent/webrtc to play movies/torrent online (success rate of finding compatible video is less than 1%)
+  - chatroom per movie..........awesome theatre
+
+#### References
+
+- [ReactiveXHub](https://msqaddura.github.io/ReactiveXHub/)
+- [WebTorrent](https://webtorrent.io/)
+- [GHPages](https://pages.github.com/)
