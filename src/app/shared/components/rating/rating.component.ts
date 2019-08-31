@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class RatingComponent implements OnInit {
   @Input() rating: number;
-  rates: string[] = []; //coming from icon names
+  rates: string[] = []; // coming from icon names
 
   constructor() {}
 
