@@ -2,15 +2,14 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { RatingComponent } from './rating.component';
 
-describe('RatingComponent', () => {
+fdescribe('RatingComponent', () => {
   let component: RatingComponent;
   let fixture: ComponentFixture<RatingComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ RatingComponent ]
-    })
-    .compileComponents();
+      declarations: [RatingComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

@@ -9,4 +9,8 @@ mat-dialog-container,
   padding: 0 !important;
   overflow: hidden !important;
 }
+
+button:focus {
+  outline: none !important;
+}
 /* You can add global styles to this file, and also import other style files */

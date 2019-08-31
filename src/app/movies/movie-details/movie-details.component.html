@@ -11,11 +11,12 @@
 
       <app-rating [rating]="movie.rate"></app-rating>
       <button mat-raised-button (click)="showTrailer(movie.trailer)">
-        Play
+        <mat-icon style="margin-bottom:4px;">play_circle_outline</mat-icon>
+        Watch Trailer
       </button>
     </div>
   </div>
-  <br />
+  <hr />
   <div>
     <mat-chip-list>
       <mat-chip *ngFor="let genre of movie.genres">{{ genre }}</mat-chip>
