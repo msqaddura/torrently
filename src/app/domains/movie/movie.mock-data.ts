@@ -130,7 +130,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.adventure, genreType.thriller],
     rate: '6.9',
     length: '2hr 28mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/7GqClqvlObY',
     img: 'spectre.jpg'
   },
   {
@@ -142,7 +142,7 @@ export const movies: Movie[] = [
     genres: [genreType.biography, genreType.crime, genreType.drama],
     rate: '7.0',
     length: '2hr 28mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/yI3v6KfR9Mw',
     img: 'legend.jpg'
   },
   {
@@ -154,7 +154,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.drama, genreType.sport],
     rate: '7.5',
     length: '2hr 4mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/aav9EyVjtWc',
     img: 'southpaw.jpg'
   },
   {
@@ -166,7 +166,7 @@ export const movies: Movie[] = [
     genres: [genreType.biography, genreType.drama, genreType.thriller],
     rate: '7.7',
     length: '2hr 22mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/mBBuzHrZBro',
     img: 'bridge-of-spies.jpg'
   },
   {
@@ -178,7 +178,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.adventure, genreType.scifi],
     rate: '7.4',
     length: '1hr 57mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/pWdKf3MneyI',
     img: 'ant-man.jpg'
   },
   {
@@ -190,7 +190,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.crime, genreType.thriller],
     rate: '7.3',
     length: '2hr 17mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/HZ7PAyCDwEg',
     img: 'fast-and-furious-7.jpg'
   },
   {
@@ -202,7 +202,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.crime, genreType.drama],
     rate: '5.6',
     length: '1hr 34mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/yqpfHeXqbQ8',
     img: 'tracers.jpg'
   },
   {
@@ -214,7 +214,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.crime, genreType.drama],
     rate: '7.4',
     length: '2hr 2mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/D8mGXIb1Nog',
     img: 'running-scared.jpg'
   },
   {
@@ -226,7 +226,7 @@ export const movies: Movie[] = [
     genres: [genreType.comedy],
     rate: '7.8',
     length: '1hr 40mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/tcdUhdOlz9M',
     img: 'the-hangover.jpg'
   },
   {
@@ -238,7 +238,7 @@ export const movies: Movie[] = [
     genres: [genreType.comedy, genreType.crime],
     rate: '6.7',
     length: '1hr 28mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/3BEIhA8CcY0',
     img: 'project-x.jpg'
   },
   {
@@ -250,7 +250,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.crime, genreType.drama],
     rate: '9.0',
     length: '2hr 32mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/EXeTwQWrcwY',
     img: 'the-dark-knight.jpg'
   },
   {
@@ -262,7 +262,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.thriller],
     rate: '6.1',
     length: '1hr 35mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/i8NDAxGsfK8',
     img: 'the-tournament.jpg'
   },
   {
@@ -274,7 +274,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.scifi],
     rate: '8.7',
     length: '2hr 16mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/m8e-FF8MsqU',
     img: 'the-matrix.jpg'
   },
   {
@@ -286,7 +286,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.comedy, genreType.crime],
     rate: '6.8',
     length: '1hr 59mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/Xm12NSa8jsM',
     img: 'bad-boys.jpg'
   }
 ];
