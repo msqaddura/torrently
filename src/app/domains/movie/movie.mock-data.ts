@@ -22,7 +22,7 @@ export const movies: Movie[] = [
     genres: [genreType.adventure, genreType.comedy, genreType.crime],
     rate: '7.0',
     length: '1hr 50mins',
-    trailer: 'https://www.youtube.com/embed/ONHBaC-pfsk',
+    trailer: 'https://www.youtube.com/embed/0Vsy5KzsieQ',
     img: 'we-are-the-millers.jpg'
   },
   {
@@ -34,7 +34,7 @@ export const movies: Movie[] = [
     genres: [genreType.biography, genreType.drama, genreType.history],
     rate: '8.0',
     length: '2hr 27mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/oyoew4T74_w',
     img: 'straight-outta-compton.jpg'
   },
   {
@@ -46,7 +46,7 @@ export const movies: Movie[] = [
     genres: [genreType.crime, genreType.drama, genreType.sport],
     rate: '6.9',
     length: '2hr 5mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/qm8vVSUnUWs',
     img: 'gridiron-gang.jpg'
   },
   {
@@ -58,7 +58,7 @@ export const movies: Movie[] = [
     genres: [genreType.biography, genreType.crime, genreType.drama],
     rate: '7.8',
     length: '2hr 37mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/BV_nssS6Zkg',
     img: 'american-gangster.jpg'
   },
   {
@@ -70,7 +70,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.crime, genreType.drama],
     rate: '6.8',
     length: '1hr 53mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/LlbN5cQKZik',
     img: 'gangster-squad.jpg'
   },
   {
@@ -82,7 +82,7 @@ export const movies: Movie[] = [
     genres: [genreType.crime, genreType.mystery, genreType.thriller],
     rate: '7.3',
     length: '1hr 55mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/4OtM9j2lcUA',
     img: 'now-you-see-me.jpg'
   },
   {
@@ -94,7 +94,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.adventure, genreType.scifi],
     rate: '7.1',
     length: '2hr 4mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/RFinNxS5KN4',
     img: 'jurassic-world.jpg'
   },
   {
@@ -106,7 +106,7 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.adventure, genreType.thriller],
     rate: '7.5',
     length: '2hr 11mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/wb49-oV0F78',
     img: 'mission-impossible-rogue-nation.jpg'
   },
   {
@@ -118,11 +118,11 @@ export const movies: Movie[] = [
     genres: [genreType.action, genreType.adventure, genreType.thriller],
     rate: '7.3',
     length: '1hr 56mins',
-    trailer: 'https://www.youtube.com/embed/RIwyv7CNhoc',
+    trailer: 'https://www.youtube.com/embed/x08iNZ8Mfc',
     img: 'the-man-from-uncle.jpg'
   },
   {
-    id: 10,
+    id: 24,
     key: 'spectre',
     name: 'Spectre',
     description:
