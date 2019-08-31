@@ -9,6 +9,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
 import { SharedModule } from '../shared/shared.module';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [MoviesListComponent, MovieDetailsComponent],
@@ -18,7 +22,11 @@ import { SharedModule } from '../shared/shared.module';
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
-    SharedModule
+    MatGridListModule,
+    MatDialogModule,
+    MatButtonModule,
+    SharedModule,
+    MatChipsModule
   ]
 })
 export class MoviesModule {}

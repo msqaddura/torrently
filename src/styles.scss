@@ -1,7 +1,12 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 body {
-    background:black;
+  background: #36b9b2;
 }
 
+mat-dialog-container,
+.mat-dialog-container {
+  padding: 0 !important;
+  overflow: hidden !important;
+}
 /* You can add global styles to this file, and also import other style files */

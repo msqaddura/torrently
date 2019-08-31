@@ -1,4 +1,34 @@
-<p>movie-details works!</p>
-<div *ngIf="movie$ | async as movie">
-  {{ movie | json }}
+<div class="container">
+  <br />
+  <div class="d-flex flex-wrap align-content-center justify-content-start">
+    <div class="movie__thumbnails">
+      <img src="assets/images/movie-covers/{{ movie.img }}" />
+    </div>
+    <div class="movie__headline align-self-end">
+      <b>{{ movie.name }}</b>
+      <br />
+      <i>{{ movie.length }}</i>
+
+      <app-rating [rating]="movie.rate"></app-rating>
+      <button
+        mat-raised-button
+        (click)="showTrailer('https://www.youtube.com/embed/1ozGKlOzEVc')"
+      >
+        Play
+      </button>
+    </div>
+  </div>
+  <br />
+  <div>
+    <mat-chip-list>
+      <mat-chip *ngFor="let genre of movie.genres">{{ genre }}</mat-chip>
+    </mat-chip-list>
+    <p>
+      <b>Story: </b>
+      {{ movie.description }}
+    </p>
+  </div>
+  <br />
+  <br />
+  <button mat-raised-button routerLink="/movies">find another movie</button>
 </div>

@@ -12,9 +12,11 @@ import { HomeComponent } from './home/home.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
+import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { YoutubeEmbedComponent } from './shared/components/youtube-embed/youtube-embed.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, FourOhFourComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -26,6 +28,7 @@ import { MatIconModule } from '@angular/material/icon';
     DomainsModule,
     SharedModule
   ],
+  entryComponents: [YoutubeEmbedComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
