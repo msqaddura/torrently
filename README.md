@@ -1,3 +1,6 @@
+if you witnessed any weird navigation behaviour on the github page, read this:
+https://shermandigital.com/blog/fix-404-errors-from-angular-projects-hosted-on-github-pages/
+
 # Torrently
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
