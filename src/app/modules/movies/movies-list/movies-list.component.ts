@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { MovieApiService } from 'src/app/domains/movie/movie-api.service';
-import { genreType } from 'src/app/domains/movie/movie.model';
 import { MoviesClientService } from 'src/app/shared/integration/movies/movies-client.service';
 import { Movie } from 'src/app/shared/integration/movies/movies.interfaces';
+import { GenreTypeEnum } from 'src/app/shared/integration/movies/movies.enums';
 
 @Component({
   selector: 'app-movies-list',
@@ -11,7 +10,7 @@ import { Movie } from 'src/app/shared/integration/movies/movies.interfaces';
 })
 export class MoviesListComponent implements OnInit {
   movies: Movie[] = [];
-  genres = genreType;
+  genres = GenreTypeEnum;
   filters = {
     name: '',
     genre: ''
