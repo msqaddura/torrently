@@ -25,7 +25,7 @@
   class="d-flex flex-wrap align-content-center justify-content-center"
 >
   <div class="movie-item" *ngFor="let movie of movies">
-    <a routerLink="/movies/{{ movie.id }}" *ngIf="canShow(movie)">
+    <a [routerLink]="movie.id" *ngIf="canShow(movie)">
       <mat-card>
         <img mat-card-image [src]="movie.poster_med" alt="movie.title" />
         <mat-card-content>

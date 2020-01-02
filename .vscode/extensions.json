@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "angular.ng-template",
+    "cyrilletuzi.angular-schematics",
+    "nrwl.angular-console",
+    "editorconfig.editorconfig",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
