@@ -8,7 +8,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MovieDetailsComponent } from './movie-details/movie-details.component';
-import { SharedModule } from '../shared/shared.module';
+import { SharedModule } from '../../shared/shared.module';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatButtonModule } from '@angular/material/button';
@@ -17,9 +17,10 @@ import { MatInputModule } from '@angular/material/input';
 import { MatMenuModule } from '@angular/material/menu';
 import { FormsModule } from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
+import { MoviesComponent } from './movies.component';
 
 @NgModule({
-  declarations: [MoviesListComponent, MovieDetailsComponent],
+  declarations: [MoviesListComponent, MovieDetailsComponent, MoviesComponent],
   imports: [
     CommonModule,
     MoviesRoutingModule,

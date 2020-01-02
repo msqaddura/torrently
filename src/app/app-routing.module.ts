@@ -7,7 +7,7 @@ const routes: Routes = [
   {
     path: 'movies',
     loadChildren: () =>
-      import('./movies/movies.module').then(mod => mod.MoviesModule)
+      import('./modules/movies/movies.module').then(mod => mod.MoviesModule)
   },
   {
     component: HomeComponent,

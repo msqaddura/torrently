@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { MovieApiService } from 'src/app/domains/movie/movie-api.service';
-import { Movie, genreType } from 'src/app/domains/movie/movie.model';
+import { genreType } from 'src/app/domains/movie/movie.model';
+import { MoviesClientService } from 'src/app/shared/integration/movies/movies-client.service';
+import { Movie } from 'src/app/shared/integration/movies/movies.interfaces';
 
 @Component({
   selector: 'app-movies-list',
@@ -14,17 +16,17 @@ export class MoviesListComponent implements OnInit {
     name: '',
     genre: ''
   };
-  constructor(private movieService: MovieApiService) {}
+  constructor(private moviesClient: MoviesClientService) {}
 
   ngOnInit() {
-    this.movieService.getMovieList().subscribe(movies => {
-      this.movies = movies;
+    this.moviesClient.getMovieList().subscribe(response => {
+      this.movies = response.MovieList;
     });
   }
 
   canShow(movie: Movie) {
     return (
-      movie.name
+      movie.title
         .toLocaleLowerCase()
         .indexOf(this.filters.name.toLocaleLowerCase()) !== -1 &&
       movie.genres.findIndex(genre => genre.indexOf(this.filters.genre))

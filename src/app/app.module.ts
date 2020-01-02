@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MoviesModule } from './movies/movies.module';
+import { MoviesModule } from './modules/movies/movies.module';
 import { DomainsModule } from './domains/domains.module';
 import { SharedModule } from './shared/shared.module';
 import { HomeComponent } from './home/home.component';
@@ -14,12 +14,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
 import { YoutubeEmbedComponent } from './shared/components/youtube-embed/youtube-embed.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, FourOhFourComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatButtonModule,
     MatToolbarModule,

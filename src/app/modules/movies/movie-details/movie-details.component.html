@@ -1,15 +1,15 @@
-<div class="container">
+<div class="container" *ngIf="movie">
   <br />
   <div class="d-flex flex-wrap align-content-center justify-content-start">
     <div class="movie__thumbnails">
-      <img src="assets/images/movie-covers/{{ movie.img }}" />
+      <img [src]="movie.poster_med" />
     </div>
     <div class="movie__headline align-self-end">
-      <b>{{ movie.name }}</b>
+      <b>{{ movie.title }}</b>
       <br />
-      <i>{{ movie.length }}</i>
+      <i>{{ movie.runtime }}</i>
 
-      <app-rating [rating]="movie.rate"></app-rating>
+      <app-rating [rating]="movie.rating"></app-rating>
       <button mat-raised-button (click)="showTrailer(movie.trailer)">
         <mat-icon style="margin-bottom:4px;">play_circle_outline</mat-icon>
         Watch Trailer

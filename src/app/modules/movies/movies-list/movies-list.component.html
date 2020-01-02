@@ -27,19 +27,15 @@
   <div class="movie-item" *ngFor="let movie of movies">
     <a routerLink="/movies/{{ movie.id }}" *ngIf="canShow(movie)">
       <mat-card>
-        <img
-          mat-card-image
-          src="assets/images/movie-covers/{{ movie.img }}"
-          alt="movie.title"
-        />
+        <img mat-card-image [src]="movie.poster_med" alt="movie.title" />
         <mat-card-content>
           <p>
             <b>
-              {{ movie.name }}
+              {{ movie.title }}
             </b>
             <br />
-            <i> {{ movie.length }}</i>
-            <app-rating [rating]="movie.rate"></app-rating>
+            <i> {{ movie.runtime }}</i>
+            <app-rating [rating]="movie.rating"></app-rating>
           </p>
         </mat-card-content>
         <!-- <mat-card-actions> </mat-card-actions> -->

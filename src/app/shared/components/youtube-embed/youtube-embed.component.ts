@@ -26,7 +26,7 @@ export class YoutubeEmbedComponent implements OnInit {
 
   ngOnInit() {
     this.safeURL = this.sanitizer.bypassSecurityTrustResourceUrl(
-      `${this.data.videoURL}?autoplay=1`
+      `https://www.youtube.com/embed/${this.data.videoURL}?autoplay=1`
     );
   }
 }
